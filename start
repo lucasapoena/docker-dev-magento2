@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+sudo ifconfig lo0 alias 10.254.254.254
+docker-sync start && \
+docker-compose up -d && \
+version=$(git describe --tags $(git rev-list --tags --max-count=1))
+echo "
+===================== 🚀 - 🚀 ===================
+
+      Criado por Rafael Corrêa Gomes
+      Adaptado por Lucas Apoena
+      v.$version
+      Links de acesso:
+
+      🌎 Magento: http://localhost
+      ⚙️ PHPMyAdmin: http://localhost:8080
+      ✉️ Local emails: http://localhost:8025
+
+===================== 🚀 - 🚀 ==================="
