@@ -41,13 +41,10 @@ Você pode especificar qual versão deseja instalar bastando informa-la ao final
 | Comandos  | Descrição  | Opções e Exemplos |
 |---|---|---|
 | `./init`  | Se você não usou o comando de instalação CURL acima, use este comando alterando o nome do projeto.  | `./init MYMAGENTO2` |
-| `./start`  | 
-Se você não continuar usando o CURL, poderá iniciar seu contêiner manualmente  | |
+| `./start`  | Se você não continuar usando o CURL, poderá iniciar seu contêiner manualmente  | |
 | `./stop`  | Pare os contêineres do seu projeto  | |
-| `./kill`  | 
-Interrompe contêineres e remove contêineres, redes, volumes e imagens criados para o projeto específico  | |
-| `./shell`  | Acesse seu contêiner
-  | `./shell root` | |
+| `./kill`  | Interrompe contêineres e remove contêineres, redes, volumes e imagens criados para o projeto específico  | |
+| `./shell`  | Acesse seu contêiner | `./shell root` | |
 | `./magento`  | Utilizar o Magento CLI  | |
 | `./n98`  | Utilizar os comandos do Magerun | |
 | `./grunt-init`  | Inicializar o Grunt  | |
